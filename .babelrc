@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-1",
+    "react"
+  ],
+  "plugins": [
+    // "transform-decorators-legacy",
+    "transform-runtime",
+    // "mobx-deep-action",
+    ["import", {"libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ]
+}
