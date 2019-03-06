@@ -1,0 +1,46 @@
+{
+  "name": "datav",
+  "version": "1.0.0",
+  "description": "Datav Application",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "start": "ELECTRON_ENV=development electron .",
+    "app": "npm run clean && electron-builder -wm",
+    "clean": "rm -rf ./app",
+    "package-all": "electron-builder build -mwl"
+  },
+  "build": {
+    "productName": "DataV",
+    "appId": "com.datav.wanglk",
+    "directories": {
+      "output": "app"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icons/icon.png"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "icon": "assets/icons/icon.png"
+    },
+    "linux": {
+      "icon": "assets/icons"
+    }
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "devDependencies": {
+    "electron": "4.0.3",
+    "electron-builder": "^20.38.5"
+  }
+}
