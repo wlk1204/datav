@@ -1,5 +1,5 @@
 {
-  "name": "koa-wanglk",
+  "name": "datav-electron",
   "version": "1.0.0",
   "description": "",
   "main": "electron/main.js",
@@ -10,7 +10,7 @@
     "clean": "rm -rf ./electron/dist"
   },
   "keywords": [
-    "koa"
+    "react、d3、three、electron"
   ],
   "author": "wanglk",
   "license": "ISC",

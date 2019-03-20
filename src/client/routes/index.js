@@ -1,4 +1,5 @@
-/* eslint-disable */ //Identifer is not in camel case 
+/* eslint-disable */ // Identifer is not in camel case 
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import D3_BarChart from '../pages/d3/barchart';
