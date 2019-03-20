@@ -20,7 +20,7 @@ yarn run build
 
 ## 打包app
 
-[在 electron 目录中执行](https://github.com/wlk1204/datav/blob/master/electron/README.md)
+[在 electron 目录中执行](https://github.com/wlk1204/datav/tree/master/electron)
 
 ## 注意
 
