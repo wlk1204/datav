@@ -414,6 +414,7 @@ mark {
 }
 .anticon {
   display: inline-block;
+  color: inherit;
   font-style: normal;
   line-height: 0;
   text-align: center;
@@ -2266,6 +2267,7 @@ mark {
 .ant-menu-vertical.ant-menu-sub,
 .ant-menu-vertical-left.ant-menu-sub,
 .ant-menu-vertical-right.ant-menu-sub {
+  min-width: 160px;
   padding: 0;
   border-right: 0;
   -webkit-transform-origin: 0 0;
@@ -2294,11 +2296,8 @@ mark {
       -ms-transform-origin: 0 0;
           transform-origin: 0 0;
 }
-.ant-menu-horizontal.ant-menu-sub,
-.ant-menu-vertical.ant-menu-sub,
-.ant-menu-vertical-left.ant-menu-sub,
-.ant-menu-vertical-right.ant-menu-sub {
-  min-width: 160px;
+.ant-menu-horizontal.ant-menu-sub {
+  min-width: 114px;
 }
 .ant-menu-item,
 .ant-menu-submenu-title {
